@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: "Be Vietnam Pro",sans-serif;
     scroll-behavior: smooth;
 }
@@ -645,6 +645,7 @@ footer{
     bottom: 0;
     color: #535c53;
     font-size: 5em;
+    user-select: none;
 }
 .link-wrapper{
     display: flex;
