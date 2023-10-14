@@ -19,6 +19,7 @@
     
     width: 1200px;
     margin: 0,auto;
+    padding-bottom: 20px;
    
 }
 .navbar{
@@ -27,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+    margin-left: 60px;
    
 }
 .logo{
@@ -73,7 +75,7 @@ a{
     align-items: center;
 
     gap: 5rem;
-    margin:4rem auto;
+    margin: 60px;
     padding: 0 1rem;
     padding-bottom: 8rem;
     
@@ -128,6 +130,7 @@ a{
     z-index: 1;
     text-align: center;
     cursor: pointer;
+    
 }
 .btn-pink::before{
      content: "";
@@ -497,12 +500,18 @@ a{
       scale: 0.55;
     }
   } 
+  #Skill{
+    padding-bottom: 10px;
+  }
  .skill-conainer{
     position: relative;
     display: flex;
     padding: 5rem;
     margin: 10rem auto;
     gap: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
  }
  .skill-container-left{
     width: 50%;
@@ -619,7 +628,7 @@ a{
 }
 #submit-btn{
     border: none;
-    margin-left:200px;
+    margin-left:230px;
    
 }
 #submit-btn:hover{
@@ -628,7 +637,6 @@ a{
 footer{
     
     position: relative;
-    margin-top: 20px ;
     background-color: #343d68;
     padding: 5rem;
 }
